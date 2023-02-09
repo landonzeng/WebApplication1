@@ -1,0 +1,17 @@
+{
+  "DbConnection": {
+    "InitConfig": {
+      "EnableInitTable": true, // 启用初始化库表
+      "EnableSeedData": true // 启用初始表数据
+    },
+    "ConnectionConfigs": [
+      {
+        "ConfigId": "MasterDB",
+        "DbType": "0",
+        "ConnectionString": "Data Source=localhost;port=3306;Database=wi_v6_solution;User ID=root;Password=abc@123;pooling=true;min pool size=5;max pool size=512;sslmode=none;CharSet=utf8;Convert Zero Datetime=True;Allow Zero Datetime=True;",
+        "IsAutoCloseConnection": true
+      }
+    ]
+  },
+  "EnableDiffLog": false // 启用库表差异日志
+}
